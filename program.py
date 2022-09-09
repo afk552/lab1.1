@@ -1,10 +1,8 @@
-a = 2
-b = 4
-c = 6
+arr = [2, 4, 6]
 
-a+=23
-b+=4
+arr[0]+=23
+arr[1]+=4
 
-res = a + b + c
+res = sum(arr)
 
 print (res)
