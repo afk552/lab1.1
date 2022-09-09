@@ -1,7 +1,9 @@
-arr = [2, 4, 6]
+import random
 
-arr[0]+=23
-arr[1]+=4
+arr = []
+for i in range (3):
+    print (i)
+    arr.append(random.randint(1,100))
 
 res = sum(arr)
 
